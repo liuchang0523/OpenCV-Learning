@@ -9,3 +9,10 @@
 ### Part2 
 使用控制器(Controller)实现模块间的通信  
 使用`ColorDetectorController`类
+
+### Part3
+使用单间(Singleton)设计模式  
+修改`ColorDetectorController`类  
+注： 单件的实现并不是线程安全的。在多线程情况下不应该使用它。
+
+ 
