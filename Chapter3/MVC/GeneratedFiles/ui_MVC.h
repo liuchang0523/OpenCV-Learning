@@ -17,13 +17,9 @@
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
-#include <QtWidgets/QMenu>
-#include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSlider>
 #include <QtWidgets/QSpacerItem>
-#include <QtWidgets/QStatusBar>
-#include <QtWidgets/QToolBar>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -45,16 +41,12 @@ public:
     QPushButton *pushButtonProcess;
     QPushButton *pushButtonSrc;
     QLabel *labelImg;
-    QMenuBar *menuBar;
-    QMenu *menuFile;
-    QToolBar *mainToolBar;
-    QStatusBar *statusBar;
 
     void setupUi(QMainWindow *MVCClass)
     {
         if (MVCClass->objectName().isEmpty())
             MVCClass->setObjectName(QStringLiteral("MVCClass"));
-        MVCClass->resize(657, 495);
+        MVCClass->resize(722, 572);
         centralWidget = new QWidget(MVCClass);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         horizontalLayout_2 = new QHBoxLayout(centralWidget);
@@ -127,20 +119,6 @@ public:
 
         horizontalLayout_2->setStretch(1, 1);
         MVCClass->setCentralWidget(centralWidget);
-        menuBar = new QMenuBar(MVCClass);
-        menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 657, 23));
-        menuFile = new QMenu(menuBar);
-        menuFile->setObjectName(QStringLiteral("menuFile"));
-        MVCClass->setMenuBar(menuBar);
-        mainToolBar = new QToolBar(MVCClass);
-        mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
-        MVCClass->addToolBar(Qt::TopToolBarArea, mainToolBar);
-        statusBar = new QStatusBar(MVCClass);
-        statusBar->setObjectName(QStringLiteral("statusBar"));
-        MVCClass->setStatusBar(statusBar);
-
-        menuBar->addAction(menuFile->menuAction());
 
         retranslateUi(MVCClass);
 
@@ -156,7 +134,6 @@ public:
         pushButtonProcess->setText(QApplication::translate("MVCClass", "Process", Q_NULLPTR));
         pushButtonSrc->setText(QApplication::translate("MVCClass", "Input Image", Q_NULLPTR));
         labelImg->setText(QString());
-        menuFile->setTitle(QApplication::translate("MVCClass", "File", Q_NULLPTR));
     } // retranslateUi
 
 };

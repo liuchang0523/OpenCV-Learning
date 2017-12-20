@@ -1,6 +1,6 @@
 # OpenCV-Learning
 ---
-## 基于类的图像处理
+## Chapter 3 基于类的图像处理
 
 ### Part1
 在算法设计中使用策略(Strategy)模式  

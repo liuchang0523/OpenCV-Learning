@@ -20,7 +20,7 @@ public:
 	void setTargetColor(cv::Vec3b color);
 	cv::Vec3b getTargetColor() const;
 
-
+	cv::Mat getResult() const { return result; }
 private:
 	//最小可接受距离
 	int minDist;
