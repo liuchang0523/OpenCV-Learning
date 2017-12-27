@@ -48,19 +48,19 @@
 以方形的一个角为例：
 
 原始图像的左上角
-![](img\I.png)
+![](img/I.png)
 
 经十字形膨胀后
-![](img\I1.png)
+![](img/I1.png)
 
 经菱形腐蚀后
-![](img\I2.png)
+![](img/I2.png)
 
 经X形膨胀后
-![](img\I3.png)
+![](img/I3.png)
 
 经方形腐蚀后
-![](img\I4.png)
+![](img/I4.png)
 
 两次腐蚀后的图像相减得到角点
-![](img\I4-I2.png)
+![](img/I4-I2.png)
