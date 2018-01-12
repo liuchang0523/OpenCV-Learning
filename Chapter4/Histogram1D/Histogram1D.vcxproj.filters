@@ -31,10 +31,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Histogram1D.h">
+    <ClInclude Include="ColorHistogram.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ColorHistogram.h">
+    <ClInclude Include="Histogram1D.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

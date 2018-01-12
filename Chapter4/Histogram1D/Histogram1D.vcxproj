@@ -72,8 +72,8 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ColorHistogram.h" />
-    <ClInclude Include="Histogram1D.h" />
+    <ClInclude Include="ColorHistogram.hpp" />
+    <ClInclude Include="Histogram1D.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

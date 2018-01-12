@@ -1,5 +1,5 @@
 ﻿#include <QtCore/QCoreApplication>
-#include "Histogram1D.h"
+#include "Histogram1D.hpp"
 
 int main(int argc, char *argv[])
 {
