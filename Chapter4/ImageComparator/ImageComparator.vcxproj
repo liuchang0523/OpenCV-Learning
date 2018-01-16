@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{AFED60A1-4208-4DDF-8850-3F69B4209B21}</ProjectGuid>
-    <RootNamespace>FindContent</RootNamespace>
+    <ProjectGuid>{4D2185D7-7467-4B4A-931E-E80A11201203}</ProjectGuid>
+    <RootNamespace>ImageComparator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,10 +115,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClInclude Include="ImageComparator.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ContentFinder.hpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

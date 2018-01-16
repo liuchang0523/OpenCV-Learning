@@ -114,6 +114,18 @@ public:
 		return result;
 	}
 
+	cv::Mat getBackProjectImage(cv::Mat &image, cv::MatND &hist) {
+		cv::Mat result;
+		cv::calcBackProject(&image,
+			1,
+			channels,
+			hist,
+			result,
+			ranges,
+			255.0);
+		return result;
+	}
+
 
 	~Histogram1D() {};
 

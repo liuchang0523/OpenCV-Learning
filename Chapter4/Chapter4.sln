@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Histogram1D", "Histogram1D\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FindContent", "FindContent\FindContent.vcxproj", "{AFED60A1-4208-4DDF-8850-3F69B4209B21}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageComparator", "ImageComparator\ImageComparator.vcxproj", "{4D2185D7-7467-4B4A-931E-E80A11201203}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -29,6 +31,14 @@ Global
 		{AFED60A1-4208-4DDF-8850-3F69B4209B21}.Release|x64.Build.0 = Release|x64
 		{AFED60A1-4208-4DDF-8850-3F69B4209B21}.Release|x86.ActiveCfg = Release|Win32
 		{AFED60A1-4208-4DDF-8850-3F69B4209B21}.Release|x86.Build.0 = Release|Win32
+		{4D2185D7-7467-4B4A-931E-E80A11201203}.Debug|x64.ActiveCfg = Debug|x64
+		{4D2185D7-7467-4B4A-931E-E80A11201203}.Debug|x64.Build.0 = Debug|x64
+		{4D2185D7-7467-4B4A-931E-E80A11201203}.Debug|x86.ActiveCfg = Debug|Win32
+		{4D2185D7-7467-4B4A-931E-E80A11201203}.Debug|x86.Build.0 = Debug|Win32
+		{4D2185D7-7467-4B4A-931E-E80A11201203}.Release|x64.ActiveCfg = Release|x64
+		{4D2185D7-7467-4B4A-931E-E80A11201203}.Release|x64.Build.0 = Release|x64
+		{4D2185D7-7467-4B4A-931E-E80A11201203}.Release|x86.ActiveCfg = Release|Win32
+		{4D2185D7-7467-4B4A-931E-E80A11201203}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

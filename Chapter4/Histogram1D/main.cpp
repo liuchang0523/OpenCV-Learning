@@ -4,7 +4,7 @@
 int main(int argc, char *argv[])
 {
 	QCoreApplication a(argc, argv);
-	cv::Mat image = cv::imread("test.bmp", 0);
+	cv::Mat image = cv::imread("1.bmp", 0);
 	Histogram1D h;
 	cv::MatND histo = h.getHistogram(image);
 	//cv::normalize(histo, histo, 1.0);
